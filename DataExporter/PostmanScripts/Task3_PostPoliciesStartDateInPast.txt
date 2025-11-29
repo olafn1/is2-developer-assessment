@@ -1,0 +1,21 @@
+Request: POST https://localhost:7246/policies/PostPolicies
+
+Body: 
+{
+    "PolicyNumber": "OLAF8",
+    "Premium": 305.15,
+    "StartDate": "2025-11-01T00:00:00"
+}
+ 
+Response:
+{
+    "type": "https://tools.ietf.org/html/rfc7231#section-6.5.1",
+    "title": "One or more validation errors occurred.",
+    "status": 400,
+    "traceId": "00-b02a56bcd85bb533761b606c3b693559-4506a3dbe4638327-00",
+    "errors": {
+        "StartDate": [
+            "Start date cannot be in the past"
+        ]
+    }
+}

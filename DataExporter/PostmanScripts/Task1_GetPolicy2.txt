@@ -1,0 +1,12 @@
+Request: GET https://localhost:7246/policies/GetPolicy/2
+
+Body: 
+
+ 
+Response:
+{
+    "id": 2,
+    "policyNumber": "HSCX1002",
+    "premium": 153,
+    "startDate": "2024-04-05T00:00:00"
+}

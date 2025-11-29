@@ -1,0 +1,26 @@
+Request: GET https://localhost:7246/policies/Export?startDate=2024-04-01&endDate=2024-04-01
+
+Body: 
+
+ 
+Response:
+[
+    {
+        "policyNumber": "HSCX1001",
+        "premium": 200,
+        "startDate": "2024-04-01T00:00:00",
+        "notes": [
+            "Note 1: Lorem ipsum dolor sit amet, consectetur adipiscing elit. In viverra, eros quis rutrum gravida, sapien elit malesuada dui, et pulvinar arcu mauris ut nisi.",
+            "Note 2: Phasellus mattis nisl vitae libero efficitur, non rutrum tortor sollicitudin.",
+            "Note 3: Duis ut imperdiet risus. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        ]
+    },
+    {
+        "policyNumber": "HSCX1005",
+        "premium": 100,
+        "startDate": "2024-04-01T00:00:00",
+        "notes": [
+            "Note 1: Vestibulum feugiat nisl nec nulla convallis, in aliquam sem malesuada."
+        ]
+    }
+]

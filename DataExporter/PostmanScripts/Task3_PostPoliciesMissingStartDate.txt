@@ -1,0 +1,20 @@
+Request: POST https://localhost:7246/policies/PostPolicies
+
+Body: 
+{
+    "PolicyNumber": "OLAF8",
+    "Premium": 290.15
+}
+ 
+Response:
+{
+    "type": "https://tools.ietf.org/html/rfc7231#section-6.5.1",
+    "title": "One or more validation errors occurred.",
+    "status": 400,
+    "traceId": "00-53486abc3c52007f9d45463501ddc483-212689ea706a8268-00",
+    "errors": {
+        "StartDate": [
+            "Start date is required"
+        ]
+    }
+}

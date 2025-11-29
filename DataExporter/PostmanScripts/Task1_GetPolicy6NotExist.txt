@@ -1,0 +1,9 @@
+Request: GET https://localhost:7246/policies/GetPolicy/6
+
+Body: 
+
+ 
+Response:
+{
+    "message": "Policy with ID 6 was not found."
+}

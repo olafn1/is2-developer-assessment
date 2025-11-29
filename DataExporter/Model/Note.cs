@@ -5,5 +5,8 @@
         public int Id { get; set; }
         public string Text { get; set; }
         public int PolicyId { get; set; }
+
+        // Link to Policy
+        public Policy Policy { get; set; }
     }
 }

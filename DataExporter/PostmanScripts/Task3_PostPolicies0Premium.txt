@@ -1,0 +1,21 @@
+Request: POST https://localhost:7246/policies/PostPolicies
+
+Body: 
+{
+    "PolicyNumber": "OLAF8",
+    "Premium": 0,
+    "StartDate": "2025-11-01T00:00:00"
+}
+ 
+Response:
+{
+    "type": "https://tools.ietf.org/html/rfc7231#section-6.5.1",
+    "title": "One or more validation errors occurred.",
+    "status": 400,
+    "traceId": "00-00467d5329dd34d9f833e0d85a52cbff-f3e9004c0179a298-00",
+    "errors": {
+        "Premium": [
+            "Premium has to be greater than 0"
+        ]
+    }
+}

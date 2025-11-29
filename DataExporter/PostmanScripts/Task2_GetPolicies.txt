@@ -1,0 +1,38 @@
+Request: GET https://localhost:7246/policies/GetPolicies
+
+Body: 
+
+ 
+Response:
+[
+    {
+        "id": 1,
+        "policyNumber": "HSCX1001",
+        "premium": 200,
+        "startDate": "2024-04-01T00:00:00"
+    },
+    {
+        "id": 2,
+        "policyNumber": "HSCX1002",
+        "premium": 153,
+        "startDate": "2024-04-05T00:00:00"
+    },
+    {
+        "id": 3,
+        "policyNumber": "HSCX1003",
+        "premium": 220,
+        "startDate": "2024-03-10T00:00:00"
+    },
+    {
+        "id": 4,
+        "policyNumber": "HSCX1004",
+        "premium": 200,
+        "startDate": "2024-05-01T00:00:00"
+    },
+    {
+        "id": 5,
+        "policyNumber": "HSCX1005",
+        "premium": 100,
+        "startDate": "2024-04-01T00:00:00"
+    }
+]
